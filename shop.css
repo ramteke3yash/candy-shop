@@ -1,0 +1,53 @@
+/* Add custom CSS for the form */
+
+header {
+  background: #f4f4f4;
+  padding: 1rem;
+  text-align: center;
+}
+
+#my-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#my-form div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px;
+}
+
+#my-form label {
+  width: 120px; /* Adjust the width as needed */
+  margin-right: 10px;
+}
+
+#my-form input[type="text"],
+#my-form input[type="number"],
+#my-form select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#my-form .btn {
+  margin-top: 10px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 5px 5px;
+  border: 0;
+  background: #333;
+  color: #fff;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.btn:hover {
+  background: #444;
+}
